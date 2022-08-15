@@ -201,7 +201,7 @@ ul a {
 .produtos {
     width: 254px;
     height: 377px;
-    background: #622C2C;
+  
 
     display: grid;
     grid-template-columns: 13px 1fr;
