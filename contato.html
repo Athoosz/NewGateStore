@@ -38,13 +38,15 @@
                 <a href=""><img src="images/instagram.png"></a>
                 <a href=""><img src="images/twitter.png"></a>
             </div>
-            <p>E-mail de contato: newgatestore@gmail.com</p>
+            <p>E-mail de contato: newgatestore.gmail.com</p>
             <p>Telefone : (31) 9309-4399</p>
             <div id="linha"></div>
             <label class="titlecontato">Receba novidades</label>
             <div class="inputs">
                 <input class="inputcontato" placeholder="nome"></input>
                 <input class="inputcontato" placeholder="e-mail"></input>
+                <input class="inputcontato" placeholder="Telefone (31)99999-9999" type="tel" placeholder="(31)99999-9999" id="telefone" maxlegth="14" oninput=tel_masc()></input>
+                <input class="inputcontato" type="text" placeholder="CEP 99999-999" id="cep" maxlength="9" oninput=cep_masc()>
                 <button id="enviar">Enviar</button>
             </div>
         </div>
@@ -97,5 +99,6 @@
 
     </footer>
 </body>
+<script src="contato.js"></script>
 
 </html>
